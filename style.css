@@ -1,0 +1,292 @@
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.jumbotron {
+   background-image:url('ulica.jpeg');
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.container {
+  background-color: #778899;
+  padding-top:0px;
+  height: 50px;
+  width: 1260px;
+  margin-top: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+   }
+.pasek_gorny{
+  background-color: white;
+  margin-top: 100px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+     }
+.pasek_dolny{
+  background-color:white;
+  margin-top: 0px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+    }
+.baner{
+  background-color:white;
+  height: 350px;
+  margin-top: 0px;
+  margin-left: 900px;
+  margin-right: 0px;
+    width: 100px;
+    }
+.pasek_gorny_drugi{
+  background-color: white;
+  margin-top: 100px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+    }
+.baner_drugi{
+  background-color:white;
+  height: 350px;
+  margin-top: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
+  width: 460px;
+}
+.pasek_dolny_drugi{
+  background-color: white;
+  margin-top: 0px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+}
+.pasek_gorny_trzeci{
+  background-color: white;
+  margin-top: 100px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+    }
+.baner_trzeci{
+  background-color:white;
+  height: 350px;
+  margin-top: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
+  width: 460px;
+}
+.pasek_dolny_trzeci{
+  background-color: white;
+  margin-top: 0px;
+  padding-top:0px;
+  height: 50px;
+  width: 459px;
+  margin-left: 700px;
+}
+.nav {  
+  margin-left: 0px;
+  padding-top:0px;
+  margin-top: 0px;
+}
+.nav_gorne {  
+  margin-left: 0px;
+  padding-top:0px;
+  margin-top: 6px;
+}
+.menu {
+  display: table; 
+  padding: 0 10px 0; 
+  margin: 0 auto; 
+  overflow: hidden; 
+  font-size: 14px; 
+      }
+#menu li {
+  list-style-type: none; 
+  margin: 0 auto; 
+  float: left; 
+}
+#menu li:hover {
+  background: #404040;
+}
+#menu li a {
+  display: block; 
+  color: black; 
+  text-decoration: none; 
+  padding: 7px 10px 7px;
+}
+#menu li a:hover {
+  background: #404040; 
+  color: white;
+}
+#menu li li a {
+  width: 160px;
+}
+#menu li ul {
+  overflow: hidden; 
+  display: none; 
+  background: #778899;
+}
+#menu li:hover ul {
+  position: absolute; 
+  padding: 0; display: 
+  block; width: 160px;
+}
+ /*ANIMACJA - tylko CSS3*/
+#menu *:hover {transition: 0.3s ease-in;}
+/*ZAOKRĄGLONE ROGI - tylko CSS3*/
+#menu {border-radius: 3px;}
+#menu li ul {border-radius: 0 0 3px 3px;}
+#menu_gorne {
+  display: table; 
+  padding: 0 15px 0; 
+  font-size: 14px; 
+            }
+#menu_gorne li {
+  list-style-type: none; 
+  margin: 0 auto; 
+  float: left; 
+}
+#menu_gorne li:hover {
+  background: #404040;
+}
+#menu_gorne li a {
+  display: block; 
+  color: black; 
+  text-decoration: none; 
+  padding: 7px 10px 7px;
+}
+#menu_gorne li a:hover {
+  background: #404040; 
+  color: white;
+}
+#menu_gorne li li a {
+  width: 160px;
+}
+#menu_gorne li ul {
+  overflow: hidden; 
+  display: none; 
+  background: #778899;
+}
+#menu_gorne li:hover ul {
+  position: absolute; 
+  padding: 0; display: 
+  block; width: 160px;
+}
+ /*ANIMACJA - tylko CSS3*/
+#menu_gorne *:hover {transition: 0.3s ease-in;}
+/*ZAOKRĄGLONE ROGI - tylko CSS3*/
+#menu_gorne {border-radius: 3px;}
+#menu_gorne li ul {border-radius: 0 0 3px 3px;
+}
+.margines_lewy{
+  background-color:white;
+  height: 1550px;
+  margin-top: 140px;
+  margin-left: 20px;
+  margin-right: 600px;
+  width: 600px;
+}
+.margines_lewy h3{
+  font-family: monospace ;
+  color: black;
+  margin-left: 0px;
+  margin-right: 420px;
+  float: right;
+  text-shadow: 3px 3px 5px 
+   }
+.margines_lewy p{
+  font-family: monospace;
+  float: right;
+  }
+.margines_lewy h4{
+  font-family: monospace;
+  margin-right: 0px;
+  float: left;
+  text-shadow: 3px 3px 5px;
+}   
+.skoda{
+  background-image: url('skoda.jpg');
+  height: 180px;
+  width: 1328px;
+  background-size: cover;
+  padding-left: 150px;
+  padding-right: 150px;  
+}
+.auto{
+  display:block;
+  border: 5px solid white;
+  padding:0px;
+  margin-top:0px;
+  width:460px;
+  height: 340px;
+  overflow:auto;
+   }
+.ramka{
+  display:block;
+  border: 1px solid black;
+  padding:0px;
+  margin-top:0px;
+  margin-left: 0px;
+  width:150px;
+  height: 320px;
+}
+.auto h4{
+  font-family: monospace;
+  text-indent: wcięcie;
+  margin-right: 0px;
+  float: left;
+  text-shadow: 3px 3px 5px;
+ }
+.dolny_pasek{
+  border-bottom-style: groove;
+}
+.blok{
+ overflow:scroll;
+ display: inline;
+}
+.poziom_linia{
+  border: 3px solid white;
+  margin-top: 40px;
+}
+.margines_glowny{
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-left: 70px; 
+  background-color: white;
+  border:ridge;
+  opacity:0.8;
+}
+.przejscie{
+  width:70%;
+  height:100px;
+  background-color:white;
+  padding:15px;
+  font-size:1.2em;
+  border:3px solid #000;
+  transition-duration:1s;
+  transition-delay:10ms;
+  margin:8px;
+}
+.przejscie h4{
+  font-family: monospace;
+  margin-right: 0px;
+  float: left;
+  text-shadow: 3px 3px 5px;
+  color: black;
+}
+
+.przejscie:hover {
+  width:100%;
+  background-color:#778899;
+}
+
+
